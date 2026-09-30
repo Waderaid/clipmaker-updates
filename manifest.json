@@ -1,1 +1,7 @@
-{"notes":"ClipMaker v1.0.0 — first release. AI clip splitter for tape captures: TransNetV2 auto-split, YOLOv8n auto-labels, YuNet+SFace family face recognition, Whisper transcription, AI color grade, AI upscale, smart bins, duplicate finder, one-click exports. See the Download page for details.","sha256":"f6f328ff22a85bee708f8e637a54a6a0925b9f5bed1f610e8db2dd9d4d4215cd","version":"1.0.0","zip":"https://files.catbox.moe/dua3rf.zip"}
+{
+  "version": "1.1.0",
+  "zip": "https://files.catbox.moe/wx76ke.zip",
+  "sha256": "3e4cbddb32cac2a8ab4cd1d80fb3b8b547cabf2e4213ecde492014117b9c39c8",
+  "size": 203153562,
+  "notes": "ClipMaker v1.1.0: launch-crash fix, ffmpeg health-check now reports real diagnostics, DPI clipping fixes; full in-app video playback with audio; experimental FastDVDnet AI tape-denoise (one-time ~10MB download); 6 new sections (Ingest+, Tape QC, Timeline, Organize+, Discover, Polish) with 57 new capabilities; UI polish pass on every screen"
+}
