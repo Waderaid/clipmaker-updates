@@ -1,7 +1,7 @@
 {
-  "version": "1.1.0",
-  "zip": "https://files.catbox.moe/wx76ke.zip",
-  "sha256": "3e4cbddb32cac2a8ab4cd1d80fb3b8b547cabf2e4213ecde492014117b9c39c8",
-  "size": 203153562,
-  "notes": "ClipMaker v1.1.0: launch-crash fix, ffmpeg health-check now reports real diagnostics, DPI clipping fixes; full in-app video playback with audio; experimental FastDVDnet AI tape-denoise (one-time ~10MB download); 6 new sections (Ingest+, Tape QC, Timeline, Organize+, Discover, Polish) with 57 new capabilities; UI polish pass on every screen"
+  "version": "1.2.0",
+  "zip": "https://files.catbox.moe/yfkpak.zip",
+  "sha256": "2e9752deac760784484ea94895f13fcb7c473db1ac102f939450375e9d0db111",
+  "size": 203189688,
+  "notes": "ClipMaker v1.2.0: NEW SeedVR2 Pro AI upscaler in Enhance (one-step diffusion 4K-class upscale with temporal consistency; one-time ~3.9 GB download, NVIDIA GPU with ~10 GB VRAM recommended); NEW RIFE AI frame interpolation \u2014 2x/4x in Export plus Interpolate 2x button on the Review screen (one-time ~22 MB download); NEW automatic dead-footage handling \u2014 blank/black/frozen/dead-silent stretches found at analysis, removed automatically or kept flagged (new Import setting); NEW NLE timeline export \u2014 Final Cut (FCPXML), Premiere (XML), CMX3600 EDL, CSV; FIXED tiled-upscale feathering on frame borders (regression tests added)"
 }
