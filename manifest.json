@@ -1,7 +1,7 @@
 {
-  "version": "1.3.0",
-  "zip": "https://files.catbox.moe/11gnyl.zip",
-  "sha256": "c9d2b9007fa7833859bcee058c333cb30bc177cac2d9fb509f7f6cd7d3750542",
-  "size": 192637741,
-  "notes": "ClipMaker v1.3.0: NEW RIFE v4.26 frame interpolation (drop-in upgrade over v4.25, MIT); NEW GFPGAN v1.4 face restoration in Enhance \u2014 rebuilds faces that denoise/upscale smear on old tape footage (Apache-2.0, Python sidecar, one-time ~544 MB download); NEW 'Ultra-fast' AI upscale tier \u2014 FlashVSR v1.1 Tiny one-step diffusion, ~12x faster than SeedVR2 Pro at some quality cost (Apache-2.0, one-time ~6.9 GB download, NVIDIA GPU); NEW RF-DETR nano person/object detection for clip labeling \u2014 replaces YOLOv8n (Apache-2.0 license fix + better accuracy). All existing features keep working: dead-footage removal, SeedVR2 Pro, NLE export, FastDVDnet, playback."
+  "version": "1.4.0",
+  "zip": "https://files.catbox.moe/56makp.zip",
+  "sha256": "76d1c9183c77e529a3563b904d6700e0248585e62fdeeebaf0e8b9317875154d",
+  "size": 192193410,
+  "notes": "ClipMaker v1.4.0: NEW \ud83e\udde0 Smart search \u2014 AI semantic clip search. Describe the moment (\u201cthe dog jumps into the pool\u201d) and find it by meaning, not just keywords (EmbeddingGemma 2, Apache-2.0, one-time ~1.5 GB model download). Per-project smart index: clip embeddings are cached and only re-embedded when a clip's description changes. Graceful fallback: no Python/GPU \u2192 clear message, keyword search keeps working; CPU inference when no NVIDIA GPU is present. All v1.3.0 features keep working: RIFE v4.26, GFPGAN v1.4, FlashVSR Ultra-fast, RF-DETR nano labeling, dead-footage removal, SeedVR2 Pro, NLE export."
 }
