@@ -1,7 +1,7 @@
 {
-  "version": "1.4.0",
-  "zip": "https://files.catbox.moe/56makp.zip",
-  "sha256": "76d1c9183c77e529a3563b904d6700e0248585e62fdeeebaf0e8b9317875154d",
-  "size": 192193410,
-  "notes": "ClipMaker v1.4.0: NEW \ud83e\udde0 Smart search \u2014 AI semantic clip search. Describe the moment (\u201cthe dog jumps into the pool\u201d) and find it by meaning, not just keywords (EmbeddingGemma 2, Apache-2.0, one-time ~1.5 GB model download). Per-project smart index: clip embeddings are cached and only re-embedded when a clip's description changes. Graceful fallback: no Python/GPU \u2192 clear message, keyword search keeps working; CPU inference when no NVIDIA GPU is present. All v1.3.0 features keep working: RIFE v4.26, GFPGAN v1.4, FlashVSR Ultra-fast, RF-DETR nano labeling, dead-footage removal, SeedVR2 Pro, NLE export."
+  "version": "1.5.1",
+  "zip": "https://gofile.io/d/QTFOXcOk",
+  "sha256": "2982efa62a50f3612a322f59d3f018feb284196a57b234cc62096640cdf9358b",
+  "size": 192298086,
+  "notes": "Rename release: ClipMaker is now ClipMaker MUSE iPhone (display name only, no behavior changes; settings carry over)."
 }
