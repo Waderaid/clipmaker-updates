@@ -1,7 +1,7 @@
 {
-  "version": "1.5.1",
-  "zip": "https://gofile.io/d/QTFOXcOk",
-  "sha256": "2982efa62a50f3612a322f59d3f018feb284196a57b234cc62096640cdf9358b",
-  "size": 192298086,
-  "notes": "Rename release: ClipMaker is now ClipMaker MUSE iPhone (display name only, no behavior changes; settings carry over)."
+  "version": "1.5.2",
+  "zip": "https://gofile.io/d/vNjTwsVd",
+  "sha256": "b8e3089d1043a9814946fac1b62fa549140aa3675f0fb96a187dbc2ea9bf8e2b",
+  "size": 192302352,
+  "notes": "v1.5.2: Fixed NVENC hardware-encode detection (FfmpegRunner.HasNvencAsync) \u2014 NVENC encodes are properly offered/used on NVIDIA GPUs; added start timeout and explicit error handling."
 }
